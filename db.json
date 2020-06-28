@@ -1,0 +1,28 @@
+{
+    "posts": [
+        {
+            "id": "5125ce64-df99-4ab4-9122-3026c2656098",
+            "info": "Venice, 2018",
+            "desc": "Wonderful city, can't wait to come back !",
+            "img": "https://i.pinimg.com/564x/78/ed/64/78ed645fe35d6dbada2c57d5d4886883.jpg"
+        },
+        {
+            "id": "67170a7f-65a8-4bf0-8c18-c355e1d3cca9",
+            "info": "Paris, 2019",
+            "desc": "It is the most beautiful city in the entire world. Fascinating architecture and history...The croissants are good as well =)",
+            "img": "https://i.pinimg.com/564x/4a/50/fe/4a50fe06a53e681dc819ff046c98e4e6.jpg"
+        },
+        {
+            "id": "b8d0f12c-c76b-48d0-8dc7-066201066f99",
+            "info": "Lucerne, 2017",
+            "desc": "Here, you are on another planet.",
+            "img": "https://i.pinimg.com/564x/00/cd/ab/00cdab6aa4ada5edfebe476e4a96ce47.jpg"
+        },
+        {
+            "id": "f2e6a879-00d3-4c79-99a2-610458ba8fc6",
+            "info": "Innsbruck, 2016",
+            "desc": "No description needed.",
+            "img": "https://i.pinimg.com/564x/29/c8/93/29c893f26f66a1a896d57f9e35517c07.jpg"
+        }
+    ]
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>-Age calculator-</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif|Ropa+Sans|Tajawal&display=swap" rel="stylesheet">
+<style>
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100wh;
+  text-align: center;
+  background-image: url("time.jpg");
+  color:ivory;
+}
+
+input {
+  margin-top: 1%;
+  color:red;
+  font-size: 40px;
+}
+
+output {
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+#date {
+  display:none;
+}
+
+button{
+float: center;
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border-radius: 4px;
+cursor: pointer;
+margin-bottom: 1%;
+
+border: 1px rgb(3, 214, 3);
+box-shadow: 0 8px 16px 0 #596e5b, 0 6px 20px 0 rgba(38, 226, 20, 0.973);
+}
+
+button:hover {
+  background-color: #0c8d12;
+}
+
+.Age{
+height:400px;
+float:center;
+
+margin-left: 15%;
+margin-right: 15%;
+padding: 0em;
+margin-left: 10%;
+margin-right: 10%;
+
+}
+
+.Number{
+height:100%;
+width: 15.66%;
+background: rgba(255,255,255,0.5);
+box-shadow: 0 0 8px 3px #fff;
+display: inline-block;
+margin:0em;
+font-size: 40px;
+margin: 0ex;
+color:black;
+font-weight: bolder;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.jos{
+  height: 50%;
+  width: 100%;
+  margin-top:0;
+  padding: 1%;
+  
+}
+.sus{
+  height: 50%;
+  width: 100%;
+  margin-bottom: 0em;
+  margin-top: 0;
+  padding: 1%;
+ 
+
+}
+
+a {
+
+  margin-top: 30px;
+  height: auto;
+  margin-left: 35%;
+  margin-right: 35%;
+  color: white;
+  background-color: #4CAF50;
+  
+  }
+
+
+</style>
+</head>
+<body>
+
+    <h1>Enter your birth date</h1>
+    <input id="calc" type="date" name="date" autofocus>
+    <br><br>
+    <button onclick="fun()">Click</button>
+    <br>
+
+    <script src="TasksJS.js"></script>
+
+    <div class="Age">
+    <div class="Number">
+    <div class="sus">
+      YEARS
+    </div>
+    <div class="jos" id="years">
+      ...
+    </div>
+    </div> 
+    <div class="Number">
+      <div class="sus">
+        MONTHS
+      </div>
+      <div class="jos"id="months">
+        ...
+      </div>
+    </div>
+    <div class="Number">
+      <div class="sus">
+        DAYS
+      </div>
+      <div class="jos" id="days">
+        ...
+      </div>
+    </div>
+    <div class="Number">
+      <div class="sus">
+        HOURS
+      </div>
+      <div class="jos" id="hours">
+        ...
+      </div>
+    </div>
+    <div class="Number">
+      <div class="sus">
+        MINUTES
+      </div>
+      <div class="jos" id="minutes">
+        ...
+      </div>
+    </div>
+    <div class="Number">
+      <div class="sus">
+        SECONDS
+      </div>
+      <div class="jos" id="seconds">
+        ...
+      </div>
+    </div>
+
+
+
+    </div>
+
+    <br>
+    <button onclick="redirect();">To the site</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

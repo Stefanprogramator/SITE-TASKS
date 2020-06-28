@@ -1,0 +1,129 @@
+body
+{
+	font-family: 'Macondo', cursive;
+	background-image: url("wood.jpg");
+	margin: 0em;
+}
+#heading
+{     
+		margin-left: 25%;
+		margin-right: 25%;
+		background: rgba(255,255,255,0.5);
+		padding: 0.5%;
+		border: 1px solid #008CBA;
+		box-shadow: 0 0 8px 3px #fff;
+		overflow: hidden;
+}
+#text
+{
+	 text-align: center;
+}
+.quiz1
+{
+		margin-left:20%;
+		margin-right:20%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+    	
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+		border: 1px solid #055c96;
+		box-shadow: 0 0 8px 3px #fff;
+		overflow: hidden;
+		
+	
+}
+#question
+{
+   width:905;
+   padding:3%;  
+   font-size: 150%;
+   background:  royalblue;
+   border-radius: 10px;
+   margin: 2%;
+   color: #f6f6f6;
+}
+.option{
+	width: 70%;
+	display: inline-block;
+	padding: 2%;
+	background: rgba(255,255,255,0.5);
+	margin: 2%;
+	color: black;
+	border: 2px solid #008CBA; 
+	border-radius: 5px;
+	font-size: 150%;
+}
+
+.option:hover{
+	background: rgb(11, 84, 241);
+	color: #f6f6f6;	
+}
+#next
+{	
+	width:30%;
+	font-family: 'Macondo', cursive; 
+	font-size: 1.5em;
+	background-color: #4CAF50;
+	border: 1px rgb(3, 214, 3);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	float:center;
+	margin-left:25%;
+	margin-right:25%;
+	padding: 2%;
+	overflow: hidden;
+
+}
+#next:hover{
+	background-color:rgb(6, 153, 6);
+	color:white;
+}
+#quit
+{
+	
+	right:    0;
+    bottom:   0;
+	font-family: 'Macondo', cursive; 
+	font-size: 1.5em;
+	background-color: red;
+	border: 1px rgb(243, 41, 41);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	float: right;
+	padding: 2%;
+	
+}
+#quit:hover{
+	background-color:rgb(179, 9, 9);
+	color:white;
+}
+
+
+
+
+#result
+{
+	font-size: 3em;
+	text-align: center;
+	margin-left:0;
+	margin-right:0%;
+	margin-top: 5%;
+	height:25%;
+    transform: translateX(-50) translateY(-50);
+	background: rgba(255,255,255,0.5);
+	padding: 2%;
+	border: 1px solid #00038c;
+	box-shadow: 0 0 8px 3px #fff;
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+[class*="quiz1"] {
+
+	margin-left:0em;
+	margin-right:0em;
+}
+
+}

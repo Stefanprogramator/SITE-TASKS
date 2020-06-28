@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="12.0; url=tryhome.html"> 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+[class*="video"] {
+
+    max-width: 70%; 
+    max-height: 70%;
+
+}
+}
+
+
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo" class="video">
+  <source src="Orient_Expresss.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<script>
+        var vid = document.getElementById("myVideo");
+        function disableMute() { 
+        vid.muted = false;
+        } 
+
+</script>
+
+disableMute();
+
+
+
+</body>
+</html>

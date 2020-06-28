@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styleq.css">
+<title>Price</title>
+<link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html {
+  
+  margin: 0px;
+  background-image: url("wood.jpg");
+}
+img {
+
+width:90%;
+height:auto;
+top:100px;
+margin:5%;
+overflow: hidden;
+animation: kenburns 7.5s; 
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  [class*="img"] 
+  {
+    margin:10px;
+  }
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-weight: bold;
+  font-size: larger;
+}
+
+#submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 0.5%;
+  border: 1px rgb(3, 214, 3);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#submit:hover {
+  background-color: #0c8d12;
+}
+
+.container {
+  border-radius: 5px;
+  background: rgba(255,255,255,0.5);
+  padding: 20px;
+  border: 1px solid #055c96;
+  box-shadow: 0 0 8px 3px #fff;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#result
+{
+  text-align: center;
+  border-radius: 5px;
+  background: rgba(255,255,255,0.5);
+  padding: 20px;
+  border: 1px solid #055c96;
+  box-shadow: 0 0 8px 3px #fff;
+  color: rgb(77, 74, 74);
+    
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+
+</style>
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="tryhome.html" class="left">-Orient Express-</a>
+    <div class="dropdown active">
+      <button class="dropbtn">Others
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Quiz.html">Quiz</a>
+        <a href="PriceCal.html">Price</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Destinations
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Paris.html">Paris</a>
+        <a href="Venice.html">Venice</a>
+        <a href="Istambul.html">Istambul</a>
+        <a href="Share.html">Share</a>
+      </div>
+    </div>
+    <a href="Dinning.html">Dinning</a>
+    <a href="Accommodation.html">Accommodation</a>
+    <a href="About.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+<div>
+    <img src="mapeuu.jpg">
+</div>
+
+<div id="heading"><h1 id="text">Price Calculator<h1></div>
+
+<div class="container">
+
+
+
+    <div class="row">
+      <div class="col-25">
+        <label for="city">From</label>
+      </div>
+      <div class="col-75">
+        <select id="city1" name="city1">
+          <option value="Paris">Paris</option>
+          <option value="Venice">Venice</option>
+          <option value="Istambul">Istambul</option>
+        </select>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-25">
+        <label for="city">To</label>
+      </div>
+      <div class="col-75">
+        <select id="city2" name="city2">
+          <option value="Paris">Paris</option>
+          <option value="Venice">Venice</option>
+          <option value="Istambul">Istambul</option>
+          
+        </select>
+      </div>
+    </div>
+  
+    <div class="row">
+      <button id="submit">Submit</button>
+    </div>
+    <script src="pricec.js"></script>
+  
+  
+  </div>
+  
+  <div id="result">Price
+  </div>
+
+
+
+
+
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="C:\Users\Liviu\Desktop\Tasks\TaskJS2.js"></script>
+
+</body>
+</html>
